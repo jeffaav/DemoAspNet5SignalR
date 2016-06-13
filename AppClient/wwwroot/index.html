@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Demo Signal R Client</title>
+    <link href="lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+</head>
+<body>
+
+    <h2>Hola!</h2>
+
+    <script src="lib/jquery/dist/jquery.js"></script>
+    <script src="lib/signalr/jquery.signalR.js"></script>
+    <script src="lib/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="http://localhost:15433/signalr/hubs"></script>
+
+    <script>
+        $(function () {
+            hub = $.connection.Chat;
+
+
+            hub.client.Receive = function (message) {
+                $('body').append(message + '<br>');
+            }
+
+            $.connection.hub.url = 'http://localhost:15433/signalr';
+            $.connection.hub.start({
+                withCredentials: false
+            }).done(function () {
+                console.log('connection succeded!');
+            });
+        })
+    </script>
+</body>
+</html>

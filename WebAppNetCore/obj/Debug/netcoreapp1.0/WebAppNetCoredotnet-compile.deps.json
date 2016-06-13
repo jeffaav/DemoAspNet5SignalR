@@ -5991,7 +5991,7 @@
     "Microsoft.AspNetCore.Cryptography.Internal/1.0.0-rc2-final": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-yrbbo4tH2Cu0nm5YtX43T3uwYTkuYGr6KwbOW0XYa5EZjRUDoctLvK8VoAouUHYzDevBn+HbtSGAYTMrPeS4Xg=="
+      "sha512": "sha512-pkxGrn5RCFGmJdAtydcjXong9KiqmOa7KDSX7yfVsqQ5UEdvnSPbhHSQvBMJrUtRWwrl6fuQ6caQzfGcBR9aFw=="
     },
     "Microsoft.AspNetCore.Cryptography.KeyDerivation/1.0.0-rc2-final": {
       "type": "package",
@@ -6001,12 +6001,12 @@
     "Microsoft.AspNetCore.DataProtection/1.0.0-rc2-final": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-ZXBPJ22XHunWrzjZ/M46dh2J26nIOtPTR0mT8BoU/FctMvWMBLHBG0jYAd54G6cjzYkZ6dzetS2xpny2jPx+PQ=="
+      "sha512": "sha512-OfC2eQP22/etD/sFqrZ8FPxbmMTeERtWNxVdNT3LeQwuOvSyd642ckDagcyX20HglAwYpYbZ4MuQFsSl1pzuJA=="
     },
     "Microsoft.AspNetCore.DataProtection.Abstractions/1.0.0-rc2-final": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-bQxi4BN0lqNy38KDTLkFRPi0Y+gIWeeeXRRfIz26LdRGHh2StnyMH2ktCxPIb2AhTiusZxMc4riX8OUdZRBbng=="
+      "sha512": "sha512-JFk890DtR1vYN0q/Iuork6zBNS7GlY8tdL7uE3lVVw15Xg8dz4AxYDoymWrSinbuOV9puwzKy+FZnQzDiSUFgQ=="
     },
     "Microsoft.AspNetCore.Diagnostics/1.0.0-rc2-final": {
       "type": "package",
@@ -6351,7 +6351,7 @@
     "Microsoft.Extensions.DependencyModel/1.0.0-rc2-final": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-p9cTPcAxJhjBSQ1jq1FMW6bBTm/HaR3fXPvWfDq44LzjJ/+ZmNwQEGKO27oSd2C8Fw+Gf45+HZjTFkFH6Czr/A=="
+      "sha512": "sha512-IFfLyVWxqGOA+ql+h6gvPjWbDMXClLORxgoeJab7WxpPHTcHut/5vFLu8+29iQklymlKfYefRo8tudtwjxjCRw=="
     },
     "Microsoft.Extensions.FileProviders.Abstractions/1.0.0-rc2-final": {
       "type": "package",

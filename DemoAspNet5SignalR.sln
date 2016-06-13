@@ -9,6 +9,10 @@ Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "WebAppNetCoreNetFramework",
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "WebAppClient", "WebAppClient\WebAppClient.xproj", "{C1EE793D-A678-47F1-B6D3-B1B8A1BFE039}"
 EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AppClient", "AppClient\AppClient.xproj", "{EFA8736E-F603-4AE0-B6E2-8667F4DBE4A2}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AppServer", "AppServer\AppServer.xproj", "{67FDFB79-F5A4-45C0-86DF-923B3B386D23}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{C1EE793D-A678-47F1-B6D3-B1B8A1BFE039}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C1EE793D-A678-47F1-B6D3-B1B8A1BFE039}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C1EE793D-A678-47F1-B6D3-B1B8A1BFE039}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFA8736E-F603-4AE0-B6E2-8667F4DBE4A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFA8736E-F603-4AE0-B6E2-8667F4DBE4A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFA8736E-F603-4AE0-B6E2-8667F4DBE4A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFA8736E-F603-4AE0-B6E2-8667F4DBE4A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67FDFB79-F5A4-45C0-86DF-923B3B386D23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67FDFB79-F5A4-45C0-86DF-923B3B386D23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67FDFB79-F5A4-45C0-86DF-923B3B386D23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67FDFB79-F5A4-45C0-86DF-923B3B386D23}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

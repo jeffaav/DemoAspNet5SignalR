@@ -57,6 +57,17 @@ namespace WebAppNetCore
             {
                 options.Hubs.EnableDetailedErrors = true;
             });
+
+            services.AddCors(options =>
+            {
+                options.AddPolicy("signalr", policy =>
+                {
+                    policy.WithMethods("GET", "POST")
+                        .AllowAnyHeader()
+                        .AllowAnyMethod()
+                        .AllowAnyOrigin();
+                });
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -88,6 +99,8 @@ namespace WebAppNetCore
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
             });
+
+            app.UseCors("signalr");
 
             app.UseSignalR();
         }
