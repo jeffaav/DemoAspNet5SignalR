@@ -4,6 +4,8 @@
   "dependencies": {
     "jquery": "1.9.1",
     "signalr": "2.2.0",
-    "bootstrap": "3.3.4"
+    "bootstrap": "3.3.4",
+    "jquery.migrate": "1.2.1",
+    "jquery-validation": "1.14.0"
   }
 }

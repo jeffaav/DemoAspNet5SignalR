@@ -28,7 +28,21 @@ namespace AppServer
 
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddSignalR();
+            services.AddCors(options =>
+            {
+                options.AddPolicy("signalr", policy =>
+                {
+                    policy.WithMethods("GET", "POST")
+                        .AllowAnyHeader()
+                        .AllowAnyMethod()
+                        .AllowAnyOrigin();
+                });
+            });
+
+            services.AddSignalR(options => 
+            {
+                options.EnableJSONP = true;
+            });
         }
 
         public void Configure(IApplicationBuilder app, ILoggerFactory loggerFactory)
@@ -38,6 +52,8 @@ namespace AppServer
 
             app.UseDefaultFiles();
             app.UseStaticFiles();
+
+            app.UseCors("signalr");
 
             app.UseSignalR();
         }
