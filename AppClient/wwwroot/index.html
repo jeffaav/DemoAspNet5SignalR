@@ -14,7 +14,9 @@
     <script src="lib/jquery.migrate/jquery-migrate-1.2.1.js"></script>
     <script src="lib/signalr/jquery.signalR.js"></script>
     <script src="lib/bootstrap/dist/js/bootstrap.js"></script>
-    <script src="http://localhost:15433/signalr/hubs"></script>
+    <!--<script src="http://localhost:15433/signalr/hubs"></script>-->
+    <!--<script src="http://localhost/appserver/signalr/hubs"></script>-->
+    <script src="http://192.168.1.164/appserver/signalr/hubs"></script>
 
     <script>
         $(function () {
@@ -25,7 +27,7 @@
                 $('body').append(message + '<br>');
             }
 
-            $.connection.hub.url = 'http://localhost:15433/signalr';
+            $.connection.hub.url = 'http://192.168.1.164/appserver/signalr';
             $.connection.hub.start({
                 withCredentials: false
             }).done(function () {
